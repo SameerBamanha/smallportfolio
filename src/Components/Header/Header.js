@@ -1,5 +1,6 @@
 import React from "react";
 import ReactRoundedImage from "react-rounded-image";
+import { Grid } from "@material-ui/core";
 import cover from "./Cover.jpg";
 import useStyles from "./styles";
 import "./header.css";
@@ -20,11 +21,13 @@ const Header = () => {
       <div className={classes.Heading}>
         Hi, I am Chitra Rekha Bamanha<span className="wave">👋</span>
       </div>
-      <div Container className={classes.Introduction}>
-        I am an Astrologer, an Engineer and an avid learner, In my free time I
-        love to read and learn. I am currently doing M.A in Sanskrit language.
-        If you wish to discuss about astronomy feel free to connect with me.
-      </div>
+      <Grid container>
+        <Grid item xs={6} md={8} className={classes.Introduction}>
+          I am an Astrologer, an Engineer and an avid learner, In my free time I
+          love to read and learn. I am currently doing M.A in Sanskrit language.
+          If you wish to discuss about astronomy feel free to connect with me.
+        </Grid>
+      </Grid>
       <div className={classes.parentCenter}>
         <a
           href="mailto:chitrarekhabamanha@gmail.com"

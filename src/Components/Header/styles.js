@@ -18,10 +18,9 @@ export default makeStyles((theme) => ({
   },
   Introduction: {
     padding: "5px",
-    wordBreak: "breakAll",
     textAlign: "center",
-    marginLeft: "150px",
-    marginRight: "150px",
+    justifyContent: "center",
+    margin: "auto",
   },
   parentCenter: {
     display: "flex",
