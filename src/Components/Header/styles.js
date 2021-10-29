@@ -7,12 +7,13 @@ export default makeStyles((theme) => ({
   image: {
     display: "flex",
     justifyContent: "center",
-    padding: "20px",
-    margin: "20px",
+    padding: "15px",
+    margin: "15px",
   },
   Heading: {
+    margin: "auto",
     textAlign: "center",
-    padding: "20px",
+    padding: "15px",
     fontWeight: "bold",
     fontSize: "30px",
   },
@@ -34,6 +35,6 @@ export default makeStyles((theme) => ({
   },
   Center: {
     textAlign: "center",
-    padding: "20px",
+    padding: "15px",
   },
 }));

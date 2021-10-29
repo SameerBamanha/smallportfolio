@@ -14,13 +14,15 @@ const Header = () => {
         <ReactRoundedImage
           image={cover}
           roundedSize="0"
-          imageWidth="300"
-          imageHeight="300"
+          imageWidth="250"
+          imageHeight="250"
         />
       </div>
-      <div className={classes.Heading}>
-        Hi, I am Chitra Rekha Bamanha<span className="wave">👋</span>
-      </div>
+      <Grid container>
+        <Grid item xs={6} className={classes.Heading}>
+          Hi, I am Chitra Rekha Bamanha<span className="wave">👋</span>
+        </Grid>
+      </Grid>
       <Grid container>
         <Grid item xs={6} md={8} className={classes.Introduction}>
           I am an Astrologer, an Engineer and an avid learner, In my free time I
