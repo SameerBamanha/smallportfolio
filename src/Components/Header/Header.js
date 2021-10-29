@@ -27,7 +27,7 @@ const Header = () => {
         <Grid item xs={6} md={8} className={classes.Introduction}>
           I am an Astrologer, an Engineer and an avid learner, In my free time I
           love to read and learn. I am currently doing M.A in Sanskrit language.
-          If you wish to discuss about astronomy feel free to connect with me.
+          If you wish to discuss about astrology feel free to connect with me.
         </Grid>
       </Grid>
       <div className={classes.parentCenter}>
