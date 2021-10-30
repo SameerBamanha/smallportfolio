@@ -40,7 +40,10 @@ const Header = () => {
           </div>
         </a>
         <div style={{ padding: "20px" }}>
-          <a href="https://wa.me/8770159268" className={classes.noDecoration}>
+          <a
+            href="https://wa.me/%2B918770159268"
+            className={classes.noDecoration}
+          >
             <BsWhatsapp size={28} />
           </a>
         </div>
